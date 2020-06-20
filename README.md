@@ -8,7 +8,7 @@ The data is stored in oracle DB.
 
 In order to make the app work, you need to have a local Oracle database on your device.
 Create required tables and triggers using code in the .sql file
-[https://github.com/Vendeis/HotelManagement/blob/master/wyswietl.png?raw=true]
+![alt](https://github.com/Vendeis/HotelManagement/blob/master/wyswietl.png?raw=true)
 
 
 
