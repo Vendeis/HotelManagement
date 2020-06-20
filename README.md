@@ -1,160 +1,87 @@
-![Hiredot - August 25, 2015](http://i.imgur.com/u9zKkBo.png)
+# Project Title
 
-# Hiredot
+One Paragraph of project description goes here
 
-> We get Fullstackers hired.
+## Getting Started
 
->> Specifically, **Hiredot** is a place for <a href="http://fullstackacademy.com" target="_blank">Fullstack Academy</a> students and interested companies to explore projects and hackathons as well as create their own profiles and set up hiring event preferences.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-[![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/joanaz/Hiredot2/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/joanaz/Hiredot2/pulls)  [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org) [![Stories in Ready](https://badge.waffle.io/joanaz/HireDot2.svg?label=ready&title=Ready)](http://waffle.io/joanaz/HireDot2) [![Stories in Done](https://badge.waffle.io/joanaz/HireDot2.svg?label=ready&title=Done)](http://waffle.io/joanaz/HireDot2) [![Stories in Backlog](https://badge.waffle.io/joanaz/HireDot2.svg?label=ready&title=Backlog)](http://waffle.io/joanaz/HireDot2) [![Stories in Progress](https://badge.waffle.io/joanaz/HireDot2.svg?label=ready&title=In Progress)](http://waffle.io/joanaz/HireDot2)
+### Prerequisites
 
----
+What things you need to install the software and how to install them
 
-## View this project at <a href="http://hiredot.herokuapp.com" target="_blank">`hiredot.herokuapp.com`</a>.
-
----
-
-## Installation
-
-> install npm packages
-
-```shell
-$ npm install
+```
+Give examples
 ```
 
-> once the packages are installed, go ahead and gulp
+### Installing
 
-```shell
-$ gulp
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
 ```
 
-> and then run the server
+And repeat
 
-```shell
-$ npm start
+```
+until finished
 ```
 
----
+End with an example of getting some data out of the system or using it for a little demo
 
-## Features
+## Running the tests
 
-> For the future
+Explain how to run the automated tests for this system
 
-- add Tumblr blog link for student profiles
-- show projects based on awards won
+### Break down into end to end tests
 
-### User Types
+Explain what these tests test and why
 
-- **User Model**
-    - email
-    - password
-    - role (student, admin, company)
-    - photo
-    - cohort (student)
-    - if they are a fellow (student)
-    - preferences (student/company)
-    - currentCompany (student)
-    - social links
-        - github
-        - linkedin
-        - website
-        - angellist
-    - resume (student)
-    - job openings (company)
+```
+Give an example
+```
 
-- **Guests/Potential Students**
-    - can view projects
-    - can view hackathon wins
-    - can view students
-    - can view companies
-    - cannot view hiring events
+### And coding style tests
 
-- **Past Students**
-    - can add projects
-    - can add a project as a hackathon win or add a hackathon event where they won an award
-    - can add resume and social links to profile
+Explain what these tests test and why
 
-- **Current Students**
-    - have same abilities as past students
-    - can edit their company preferences and view their time slots with companies for the hiring events at **Hiring Event** state
-    - only **Admins** and the specific student can see their company preferences
+```
+Give an example
+```
 
-- **Companies**
-    - can add job openings to their profile
-    - can edit their student preferences and view their time slots with students for the hiring events at the **Hiring Event** state
-    - only **Admins** and the specific company can see their student preferences
+## Deployment
 
-- **Admin**
-    - have complete CRUD control over all data
-    - key thing is that they can view the **Hiring Event** preferences for both the companies and the students so that they can set up Google Calendar time slots in the **Hiring event** state
+Add additional notes about how to deploy this on a live system
 
-### Sections
+## Built With
 
-- **Projects**
-    - showcases all projects students add to their profile
-    - projects must be one in following categories:
-        - stackstore
-        - stackathon
-        - capstone
-        - winning hackathon project
-    - model
-        - title
-        - description
-        - awards won
-        - team members
-        - github repo link
-        - website link
-        - photo
-        - tags
-        - category
-- **Companies**
-    - displays all companies that have either hired a Fullstack grad or are currently hiring
-- **Hackathon Wins**
-    - displays all hackathon events where students won an award
-    - model
-        - title
-        - number of wins
-        - description
-        - projects
-        - website
-        - photo
-- **Hiring Events**
-    - students and companies view their time slots with each other
-    - admins can see all preferences and time slots
-    - stable marriage algorithm automatically calculates company/student pairs for time slots in the hiring events Fullstack has for each cohort
-    - a time slot day view will be available here for both the students and companies for convenience
-
----
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-### Step 1
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-- **Option 1**
-    - 🍴 Fork this repo!
+## Versioning
 
-- **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-### Step 2
+## Authors
 
-- **HACK AWAY!** 🔨🔨🔨
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-### Step 3
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+## License
 
----
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Team
+## Acknowledgments
 
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="https://github.com/joanaz" target="_blank">**Joanna Zhang**</a> |
-| :---: |:---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![Joanna Zhang](https://avatars1.githubusercontent.com/u/8575618?v=3&s=200)](https://github.com/joanaz) |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="https://github.com/joanaz" target="_blank">`github.com/joanaz`</a> |
-
----
-
-## Donations
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
